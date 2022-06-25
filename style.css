@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F5F5F5;
+	font-family: 'PT Sans', sans-serif;
+}
+form{
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 40px 60px;
+	border-radius: 10px;
+	min-width: 300px;
+}
+form h1{
+	color: #66BB6A;
+	text-align: center;
+	}
+	form p.choose-name{
+		text-align: center;
+	}
+	form.inputs {
+		display: flex;
+		flex-direction: column;
+	}
+	form.inputs input[type="name"], input[type="password"], input[type="name"]{
+		padding: 15xp;
+		border-radius: 5px;
+		border: none;
+		background-color: #f2f2f2;
+		outline-color: #66BB6A;
+	}
+	form button{
+		padding: 15px 25px;
+		border: none;
+		border-radius: 5px;
+		outline-color: #lightgrey;
+		font-size: 15px;
+		background-color: #66BB6A;
+		cursor: pointer;
+	}
